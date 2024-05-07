@@ -312,7 +312,7 @@ Define a function called createUsername. It should take a first name and a last 
 Example: createUsername('Samantha', 'Green') should return 'SamGre12'.
 
 I am not sure if I am missing something but there are 8 chars in Samantha and 5 in Green 
-and last I checked 8 + 5 = 13 not 12 so I do not know if I missed something
+and last I checked 8 + 5 = 13 not 12 so I do not know if I missed something.
 Complete the exercise in the space below:
 */
 
