@@ -130,13 +130,22 @@ Example: reverseString('rockstar') should return the string "ratskcor".
 
 for help I used the example solution here -> https://freecodecamp.org/news/how-to-reverse-a-string-in-javascript-in-3-different-ways-75e4763c68cb/
 Complete the exercise in the space below:
-*/
 
+I am unsure if the solution below will be flagged as plagarism so I am rewriting
+ my code to reflect things I have learned in class
 const reverseString = (string) => {
     let spltstr =  string.split('');
     let reversed = spltstr.reverse();
     let joined = reversed.join('');
     return joined;
+}
+*/
+const reverseString = (string) => {
+    reversed = '';
+    for (let i = string.length-1; i >= 0; i-- ) {
+        reversed += string[i];
+    }
+    return reversed;
 }
 
 console.log('Exercise 6 Result:', reverseString("rockstar"));
