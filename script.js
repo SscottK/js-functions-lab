@@ -149,7 +149,7 @@ const reverseString = (string) => {
     return reversed;
 }
 
-console.log('Exercise 6 Result:', reverseString("rockstar"));;
+console.log('Exercise 6 Result:', reverseString("rockstar"));
 
 
 /*
