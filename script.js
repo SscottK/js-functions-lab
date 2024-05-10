@@ -110,11 +110,11 @@ Complete the exercise in the space below:
 
 const greetUser = (named, timeofday) => {
     if (timeofday === 'morning') {
-        return `Good ${timeofday} ${named}`
+        return `Good ${timeofday} ${named}`;
     } else if (timeofday === 'afternoon') {
-        return `Good ${timeofday} ${named}`
+        return `Good ${timeofday} ${named}`;
     } else if (timeofday === 'evening') {
-        return `Good ${timeofday} ${named}`
+        return `Good ${timeofday} ${named}`;
     }
 }
 
@@ -128,7 +128,8 @@ xIt should take a string and return it with its characters in reverse order.
 
 Example: reverseString('rockstar') should return the string "ratskcor".
 
-for help I used the example solution here -> https://freecodecamp.org/news/how-to-reverse-a-string-in-javascript-in-3-different-ways-75e4763c68cb/
+for help I used the example solution I found below searching for the .reverse() method I have used to while doing code challenges on the web. 
+-> https://freecodecamp.org/news/how-to-reverse-a-string-in-javascript-in-3-different-ways-75e4763c68cb/
 Complete the exercise in the space below:
 
 I am unsure if the solution below will be flagged as plagarism so I am rewriting
@@ -194,7 +195,7 @@ const maxOfThree = (x, y, z) => {
     } else if (y > x && y > z) {
         return y;
     } else {
-        return z
+        return z;
     }
 }
 
@@ -213,7 +214,7 @@ Complete the exercise in the space below:
 */
 
 const calculateTip = (bill, percent) => {
-    return bill * (percent/100)
+    return bill * (percent/100);
 
 }
 
@@ -238,11 +239,11 @@ Complete the exercise in the space below:
 
 const convertTemperature = (temp, scale) => {
     if (scale === 'C') {
-        cToF = (temp * (9/5)) + 32
-        return `${cToF} (Fahrenheit)`
+        cToF = (temp * (9/5)) + 32;
+        return `${cToF} (Fahrenheit)`;
     } else {
-        fToC = (temp - 32) * (5/9)
-        return `${converted} (Celcius)`
+        fToC = (temp - 32) * (5/9);
+        return `${converted} (Celcius)`;
     }
 }
 
@@ -266,13 +267,13 @@ Complete the exercise in the space below:
 
 const basicCalculator = (x, y, operator) => {
     if (operator == 'add') {
-        return x + y
+        return x + y;
     } else if (operator == 'subtract') {
-        return x - y
+        return x - y;
     } else if (operator == 'multiply') {
-        return x * y
+        return x * y;
     } else if (operator == 'divide') {
-        return x / y
+        return x / y;
     } 
 }
 
@@ -294,15 +295,15 @@ Complete the exercise in the space below:
 
 const calculateGrade = (score) => {
     if (score < 60) {
-        return 'F'
+        return 'F';
     } else if (score < 70) {
-        return 'D'
+        return 'D';
     } else if (score < 80) {
-        return 'C'
+        return 'C';
     } else if (score < 90) {
-        return 'B'
+        return 'B';
     } else if (score >= 90) {
-        return 'A'
+        return 'A';
     } 
 }
 
@@ -326,11 +327,11 @@ Complete the exercise in the space below:
 */
 
 const createUsername = (first, last) => {
-    start = first.slice(0, 3)
-    end = last.slice(0, 3)
+    start = first.slice(0, 3);
+    end = last.slice(0, 3) ; 
     
-    total = first.length + last.length
-    return `${start}${end}${ total}`
+    total = first.length + last.length;
+    return `${start}${end}${ total}`;
 }
 
 console.log('Exercise 13 Result:', createUsername("Samantha", "Green"));
@@ -345,10 +346,10 @@ Complete the exercise in the space below:
 */
 
 const numArgs = (...numbers) => {
-    let count = 0
+    let count = 0;
     for (let num = 0; num < numbers.length; num++) {
-        count += numbers[num]
+        count += numbers[num];
     }
-    return count
+    return count;
 }
 console.log('Exercise 14 Result:', numArgs(1, 2, 3, 4));
